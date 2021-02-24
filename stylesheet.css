@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "poppins";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 34px;
+  margin-top: 16px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+.top-wrapper {
+  padding: 280px 0 216px 0;
+  background-image: url(assets/background.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+}
+
+
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #b3b3b3e8;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #292929;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.pendidikan {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 3px #1a7940;
+}
+
+.pendidikan:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.pprofil {
+  width: 216px;
+  margin-top: 32px;
+}
+
+.pendidikan-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #ffffffe8;
+  color: #001e46;
+}
+
+.jadwal-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-top: 36px;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #ffffffe8;
+}
+
+.jadwal-wrapper h1 {
+  margin-bottom: 16px;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+
+  padding: 20px;
+}
+
+table {
+  margin-left: 128px;
+  width: 85%;
+  border-collapse: collapse;
+}
+
+thead {
+  color: #001e46;
+  background-color: rgb(223, 223, 223);
+}
+
+tbody {
+  color: #292929;
+  background-color: #fff;
+  font-family: 'Segoe UI';
+}
+
+
+
+.aktivitas-wrapper {
+  border-bottom: 1px solid #eee;
+  padding: 80px;
+  text-align: center;
+  background-color: #ffffffe8;
+}
+
+
+
+.contact-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.contacts {
+  margin-left: 350px;
+}
+
+.contact {
+  float: left;
+  width: 25%;
+}
+
+.contact-icon {
+  position: relative;
+  margin: 40px;
+}
+
+.contact-icon img {
+  width: 128px;
+}
+
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
